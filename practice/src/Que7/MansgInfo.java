@@ -7,10 +7,10 @@ public class MansgInfo {
 	public Mansg setData()
 	{
 	Scanner sc=new Scanner(System.in);
-	System.out.println("Enter name");
+	System.out.println("ENTER YOUR NAME:");
 	String a=sc.nextLine();
 	
-	System.out.println("Enter Gender :");
+	System.out.println("ENTER YOUR GENDER :");
 	String b=sc.nextLine();
 	m.setName(a);
 	m.setGender(b);

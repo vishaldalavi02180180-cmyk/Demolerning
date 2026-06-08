@@ -1,8 +1,10 @@
 package Que8;
 
 public class Carengine {
+	
 private String type;
 private double weight;
+
 public void setType(String type)
 {
 	this.type=type;

@@ -2,30 +2,43 @@ package Que8;
 
 import java.util.Scanner;
 
-public class CarsgInfo {
+import cc.Carengine;
 
+public class CarsgInfo {
+	Carsg cc=new Carsg();
+	Carengine car=new Carengine();
+	
+	
 	public Carsg setData()
 	{
-		Carsg c=new Carsg();
-		c.carengine e=new Carengine();
+		
 		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the name :");
-		c.setName(sc.nextLine());
+		String a=sc.next();
 		
 		System.out.println("Enter the price :");
-		c.setPrice(sc.nextDouble());
+		double b=sc.nextDouble();
 		sc.nextLine();
 		
 		System.out.println("enter the type :");
-		engine.setType(sc.nextLine());
+		String c=sc.nextLine();
 		
 		System.out.println("Enter the weight :");
-		engine.setWaight=sc.nextDouble();
+		double d=sc.nextDouble();
+		cc.setName(a);
+		cc.setPrice(b);
+		car.toString();
 		
-		c.setEngine(engine);
+		cc.setEngine(car);
 		
-		return c;
+		return car;
+		
+	}
+
+
+	private void setEngine(Carengine ce2) {
+		// TODO Auto-generated method stub
 		
 	}
 }

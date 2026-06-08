@@ -1,5 +1,7 @@
 package Que8;
 
+import cc.Carengine;
+
 public class Carsg {
 private String name;
 private double price;
@@ -23,9 +25,9 @@ public double getPrice()
 {
 	return price;
 }
-public void setEngine(Engine engine)
+public void setEngine(Engine car)
 {
-	this.engine=engine;
+	this.engine=car;
 	
 }
 public Engine getEngine()
